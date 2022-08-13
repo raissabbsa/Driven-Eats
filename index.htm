@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Raissa</title>
+  </head>
+  <body>
+
+    <div class="topo">
+    <h1>DrivenEats</h1>
+    <p>Sua comida em 6 minutos</p>
+    </div>
+
+    <div class="titulo1">Primeiro, seu prato</div>
+
+    <div class="pratos">
+        <div class="prato prato1" onclick="selecionarPrato('.prato1')"> 
+            <img src="imagens/frango_yin_yang.png" />
+            <h3>Frango Yin Yang</h3>
+            <p>Um pouco de batata, salada frango</p>
+            <div class="valor">
+                <h4>R$ </h4>
+                <p>14.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>    
+        </div>
+        <div class="prato prato2" onclick="selecionarPrato('.prato2')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/b86aa30e-2734-4845-8a7e-84005bf12814/202202152212_LF4N_i.jpg" />
+            <h3>Pokinho</h3>
+            <p>Pra combinar com a sua dieta</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>35.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato prato3" onclick="selecionarPrato('.prato3')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/696a3a6d-ed7f-4364-b76f-17514bf97388/202109191904_3OPQ_i.jpg" />
+            <h3>Combo de sushi</h3>
+            <p>Tudo que há de bom de sushi</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>46.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato prato4" onclick="selecionarPrato('.prato4')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/3c826acf-5cfc-4cde-ab5d-780586f29a5b/202204282146_487C_i.jpg" />
+            <h3>Monstro Burguer</h3>
+            <p>Delicioso burger + fritas</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>24.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+        <div class="prato prato5" onclick="selecionarPrato('.prato5')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/8cdebdd9-b5df-4f9f-abeb-eba5df2a2939/202203241436_Y6WV_i.jpg" />
+            <h3>Chicken Katsu</h3>
+            <p>Típica comida caseira do Japão</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>34.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato prato6" onclick="selecionarPrato('.prato6')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/e7100463-017b-402b-b3cb-b0636e1e0556/202108161216_67P3_.jpeg" />
+            <h3>Pizza de Calabresa</h3>
+            <p>Cadin de calabresa, muita cebola</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>44.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+    </div>
+
+    <div class="titulos">Agora, sua bebida</div>
+
+    <div class="bebidas">
+        <div class="prato bebida1" onclick="selecionarBebida('.bebida1')">
+            <img src="imagens/coquinha_gelada.png" />
+            <h3>Coquinha gelada</h3>
+            <p>Lata 350ml</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>4.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato bebida2" onclick="selecionarBebida('.bebida2')">
+            <img src="https://cdn.awsli.com.br/600x450/1964/1964090/produto/135571961638e8a012a.jpg" />
+            <h3>Coquinha zero</h3>
+            <p>2L</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>14.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato bebida3" onclick="selecionarBebida('.bebida3')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_high/pratos/0b07e938-2244-4572-baf1-2e86e03b9c81/202101091751_MaZe_.jpeg" />
+            <h3>Budweiser</h3>
+            <p>Long Neck 330ml</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>14.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato bebida4" onclick="selecionarBebida('.bebida4')">
+            <img src="https://www.amstelbrasil.com/media/utki2smj/og-image.png" />
+            <h3>Amstel</h3>
+            <p>Lata 350ml</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>2.80</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato bebida5" onclick="selecionarBebida('.bebida5')">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0yic4VDS4LPtgS6mMHbeVXyCKIJsgnlWriA&usqp=CAU" />
+            <h3>Corote sabor azul</h3>
+            <p>Pitchulinha 500ml</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>1.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato bebida6" onclick="selecionarBebida('.bebida6')">
+            <img src="https://www.divvino.com.br/blog/wp-content/uploads/2019/06/vinho-inverno.jpg" />
+            <h3>Vinho Italiano</h3>
+            <p>Com muita classe</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>110.00</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+    </div>
+
+    <div class="titulos">Por fim, sua sobremesa</div>
+    
+    <div class="sobremesas">
+        <div class="prato sobremesa1" onclick="selecionarSobremesa('.sobremesa1')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/9650178f-6bc1-424a-97af-10ebd38f98f2/202112012100_UAPO_i.jpg" />
+            <h3>Travessa brigadeiro</h3>
+            <p>Pra você ter uma overdose de açúcar</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>40.00</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+        <div class="prato sobremesa2" onclick="selecionarSobremesa('.sobremesa2')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/ae133e9d-666c-487e-bc62-a215e736cad8/202203231923_67W6_i.jpg" />
+            <h3>Sushi de chocolate</h3>
+            <p>A pior combinação existente</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>20.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato sobremesa3" onclick="selecionarSobremesa('.sobremesa3')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/398fea3e-6474-474b-94f3-72fc24c83f91/202205201457_AO0G_i.jpg" />
+            <h3>Milkshake de Oreo</h3>
+            <p>Simplesmente perfeito</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>7.50</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+        <div class="prato sobremesa4" onclick="selecionarSobremesa('.sobremesa4')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/9650178f-6bc1-424a-97af-10ebd38f98f2/202109091607_0PMI_i.jpg" />
+            <h3>Copo da Felicidade</h3>
+            <p>Outra overdose de açúcar</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>25.00</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+        <div class="prato sobremesa5" onclick="selecionarSobremesa('.sobremesa5')">
+            <img src="https://static-images.ifood.com.br/image/upload/t_medium/pratos/9e37ba60-7cfc-49ad-b0ba-e84fb43eba5f/202106172203_O6TL_i.jpg" />
+            <h3>Barca de açaí</h3>
+            <p>Um pouco de açaí num mar de toppings</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>22.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+        <div class="prato sobremesa6" onclick="selecionarSobremesa('.sobremesa6')">
+            <img src="imagens/pudim.png" />
+            <h3>Pudim</h3>
+            <p>Apenas pudim, um pudim inteiro</p>
+            <div class="valor">
+                <h4>R$</h4>
+                <p>15.90</p>
+            </div>
+            <div class="icone"><ion-icon name="checkmark-circle"></ion-icon></div>
+        </div>
+    </div>
+
+    <div class="botao" onclick="final()">
+        <button class="pedido">Selecione os 3 itens para fechar o pedido</button>
+    </div>
+
+    <div class="tela escondido">
+        <h4>Confirme seu pedido</h4>
+        <div class="pedidoPrato">
+            <p class="titulo"></p>
+            <p class="preco"></p>
+        </div>
+        <div class="pedidoBebida">
+            <p class="titulo"></p>
+            <p class="preco"></p>
+        </div>
+        <div class="pedidoSobremesa">
+            <p class="titulo"></p>
+            <p class="preco"></p>
+        </div>
+        <div class="total">
+            <p class="titulo">TOTAL</p>
+            <p class="preco"></p>
+        </div>
+        <button onclick="finalizar()" >Tudo certo, pode pedir!</button>
+        <p onclick="cancelar()" >Cancelar</p>
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
