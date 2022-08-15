@@ -21,6 +21,7 @@ body {
     top: 0;
     left: 0;
     z-index: 3;
+    box-shadow: 0 4px 4px #B5B5B5;
 }
 .topo h1{
     font-size: 30px;
@@ -176,12 +177,13 @@ ion-icon {
     height: 377px;
     width: 380px;
     position: fixed;
-    top: 100px;
-    left: 120px;
+    top: 120px;
+    left: 110px;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     padding: 20px;
+    z-index: 4;
 }
 .tela button {
     background-color: #FFFFFF;
